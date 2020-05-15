@@ -93,7 +93,7 @@ class SelectedRange extends React.Component {
           left: selectedRangeStart * 100 + CSS_UNIT,
           width: selectedRangeLength * 100 + CSS_UNIT,
         }}
-        onPointerDown={this.grab}
+       // onPointerDown={this.grab}
       />
     );
   }
